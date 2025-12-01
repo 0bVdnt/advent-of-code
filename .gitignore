@@ -1,0 +1,10 @@
+*.exe
+*.out
+*.o
+*.obj
+
+build/
+cmake-build-debug/
+
+**/target/
+**/*.rs.bk

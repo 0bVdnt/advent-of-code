@@ -3,17 +3,17 @@
 #include <ostream>
 #include <string>
 
-const std::string INPUT_FILE = "../input/01.txt";
-const std::string OUTPUT_FILE = "../output/01.txt";
+const std::string DEFAULT_INPUT = "../input/01.txt";
+const std::string DEFAULT_OUTPUT = "../cpp/output/01.txt";
 const int START_POS = 50;
 const int DIAL_SIZE = 100;
 
 int safe_mod(int a, int b) { return (a % b + b) % b; }
 
-int part_one() {
-  std::ifstream file(INPUT_FILE);
+int part_one(const std::string &filename) {
+  std::ifstream file(filename);
   if (!file.is_open()) {
-    std::cerr << "[Part 1] Error: Could not open file " << INPUT_FILE << '\n';
+    std::cerr << "[Part 1] Error: Could not open file " << filename << '\n';
     return -1;
   }
   char dir;
@@ -33,11 +33,10 @@ int part_one() {
   return pass;
 }
 
-int part_two() {
-  std::ifstream file(INPUT_FILE);
+int part_two(const std::string &filename) {
+  std::ifstream file(filename);
   if (!file.is_open()) {
-    std::cerr << "[Part 2] Error: Could not open the file " << INPUT_FILE
-              << '\n';
+    std::cerr << "[Part 2] Error: Could not open the file " << filename << '\n';
     return -1;
   }
   char dir;
@@ -66,23 +65,23 @@ int part_two() {
   return ans;
 }
 
-int main() {
-  std::ofstream oFile(OUTPUT_FILE);
-  if (!oFile.is_open()) {
-    std::cerr << "Error: Could not open the output file " << OUTPUT_FILE
-              << '\n';
-    std::cerr << "Make sure the directory '../output/' exists.\n";
-    return 1;
-  }
-  int p1 = part_one();
-  int p2 = part_two();
+int main(int argc, char *argv[]) {
+  std::string input_file = (argc > 1) ? argv[1] : DEFAULT_INPUT;
+
+  std::cout << "Reading from: " << input_file << std::endl;
+
+  int p1 = part_one(input_file);
+  int p2 = part_two(input_file);
 
   std::cout << "Part 1: " << p1 << std::endl;
   std::cout << "Part 2: " << p2 << std::endl;
 
-  oFile << p1 << '\n';
-  oFile << p2 << '\n';
-
-  std::cout << "Results have been stored to " << OUTPUT_FILE << std::endl;
+  std::ofstream oFile(DEFAULT_OUTPUT);
+  if (oFile.is_open()) {
+    oFile << p1 << '\n' << p2 << '\n';
+    std::cout << "Saved to " << DEFAULT_OUTPUT << std::endl;
+  } else {
+    std::cerr << "Error writing to " << DEFAULT_OUTPUT << std::endl;
+  }
   return 0;
 }
