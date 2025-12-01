@@ -3,6 +3,8 @@
 *.o
 *.obj
 
+.env
+
 input/*.txt
 !input/example.txt
 puzzles/
