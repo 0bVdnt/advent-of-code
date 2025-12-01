@@ -2,8 +2,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/01.txt";
-const DEFAULT_OUTPUT: &str = "output/01.txt";
+const DEFAULT_INPUT: &str = "../input/day01.txt";
+const DEFAULT_OUTPUT: &str = "output/day01.txt";
 const START_POS: i32 = 50;
 const DIAL_SIZE: i32 = 100;
 

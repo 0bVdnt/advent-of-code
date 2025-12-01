@@ -3,8 +3,8 @@
 #include <ostream>
 #include <string>
 
-const std::string DEFAULT_INPUT = "../input/01.txt";
-const std::string DEFAULT_OUTPUT = "../cpp/output/01.txt";
+const std::string DEFAULT_INPUT = "../input/day01.txt";
+const std::string DEFAULT_OUTPUT = "../cpp/output/day01.txt";
 const int START_POS = 50;
 const int DIAL_SIZE = 100;
 
