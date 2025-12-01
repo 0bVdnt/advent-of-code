@@ -3,6 +3,11 @@
 *.o
 *.obj
 
+input/*.txt
+!input/example.txt
+puzzles/
+output/
+
 build/
 cmake-build-debug/
 

@@ -1,10 +1,13 @@
+// Advent of Code 2025 - Day 1
+// https://adventofcode.com/2025/day/1
+
 #include <fstream>
 #include <iostream>
 #include <ostream>
 #include <string>
 
 const std::string DEFAULT_INPUT = "../input/day01.txt";
-const std::string DEFAULT_OUTPUT = "../cpp/output/day01.txt";
+const std::string DEFAULT_OUTPUT = "output/day01.txt";
 const int START_POS = 50;
 const int DIAL_SIZE = 100;
 
