@@ -5,7 +5,7 @@
 
 .env
 
-input/*.txt
+**/input/*.txt
 !input/example.txt
 puzzles/
 output/
