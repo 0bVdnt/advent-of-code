@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 
 add_executable(day01 src/day01.cpp)
 add_executable(day02 src/day02.cpp)
+add_executable(day03 src/day03.cpp)
