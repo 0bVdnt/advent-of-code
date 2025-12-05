@@ -30,8 +30,6 @@ int part_one(const std::string &filename) {
   std::vector<std::string> grid;
   int ans = 0;
   while (std::getline(file, line)) {
-    if (!line.empty() && line.back() == '\r')
-      line.pop_back();
     if (!line.empty())
       grid.push_back(line);
   }
@@ -58,8 +56,6 @@ int part_two(const std::string &filename) {
   std::vector<std::string> grid;
   int ans = 0;
   while (std::getline(file, line)) {
-    if (!line.empty() && line.back() == '\r')
-      line.pop_back();
     if (!line.empty())
       grid.push_back(line);
   }
