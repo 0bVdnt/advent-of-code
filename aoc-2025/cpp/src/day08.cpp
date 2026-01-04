@@ -6,8 +6,8 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day08.txt";
-const std::string DEFAULT_OUTPUT = "output/day08.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 struct Point {
   long long x, y, z;

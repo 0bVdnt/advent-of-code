@@ -4,8 +4,8 @@
 #include <sstream>
 #include <string>
 
-const std::string DEFAULT_INPUT = "../input/day12.txt";
-const std::string DEFAULT_OUTPUT = "output/day12.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 int part_one(const std::string &filename) {
   std::ifstream file(filename);

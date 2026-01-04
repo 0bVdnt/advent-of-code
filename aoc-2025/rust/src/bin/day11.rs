@@ -4,8 +4,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/day11.txt";
-const DEFAULT_OUTPUT: &str = "output/day11.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 
 type Graph = HashMap<String, Vec<String>>;
 type Memo = HashMap<String, u64>;

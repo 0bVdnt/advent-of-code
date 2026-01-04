@@ -3,8 +3,8 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day04.txt";
-const std::string DEFAULT_OUTPUT = "output/day04.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 const int dr[] = {-1, -1, -1, 0, 0, 1, 1, 1};
 const int dc[] = {-1, 0, 1, -1, 1, -1, 0, 1};

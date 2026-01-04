@@ -3,8 +3,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/day07.txt";
-const DEFAULT_OUTPUT: &str = "output/day07.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 
 fn part_one(content: &str) -> i32 {
     let grid: Vec<Vec<char>> = content

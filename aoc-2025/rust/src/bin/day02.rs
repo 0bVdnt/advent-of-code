@@ -3,8 +3,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/day02.txt";
-const DEFAULT_OUTPUT: &str = "output/day02.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 
 fn parse_ranges(content: &str) -> Vec<(i64, i64)> {
     let clean_content: String = content.chars().filter(|c| !c.is_whitespace()).collect();

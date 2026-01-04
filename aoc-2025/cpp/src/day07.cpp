@@ -5,8 +5,8 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day07.txt";
-const std::string DEFAULT_OUTPUT = "output/day07.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 struct GridInfo {
   std::vector<std::string> grid;

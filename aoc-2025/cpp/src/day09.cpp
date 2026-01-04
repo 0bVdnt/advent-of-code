@@ -7,8 +7,8 @@
 
 using namespace std;
 
-const string DEFAULT_INPUT = "../input/day09.txt";
-const string DEFAULT_OUTPUT = "output/day09.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 const double EPS = 1e-9;
 

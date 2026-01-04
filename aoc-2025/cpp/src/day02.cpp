@@ -5,8 +5,8 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day02.txt";
-const std::string DEFAULT_OUTPUT = "output/day02.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 using ll = long long;
 using Range = std::pair<ll, ll>;

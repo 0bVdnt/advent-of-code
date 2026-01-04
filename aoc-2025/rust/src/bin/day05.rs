@@ -3,8 +3,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/day05.txt";
-const DEFAULT_OUTPUT: &str = "output/day05.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 
 fn part_one(content: &str) -> i32 {
     let mut ranges: Vec<(i64, i64)> = Vec::new();

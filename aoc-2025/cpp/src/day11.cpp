@@ -5,8 +5,8 @@
 #include <unordered_map>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day11.txt";
-const std::string DEFAULT_OUTPUT = "output/day11.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 using Graph = std::unordered_map<std::string, std::vector<std::string>>;
 using Memo = std::unordered_map<std::string, long long>;

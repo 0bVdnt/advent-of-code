@@ -4,8 +4,8 @@ use std::fs;
 use std::path::Path;
 use std::time::Instant;
 
-const DEFAULT_INPUT: &str = "../input/day03.txt";
-const DEFAULT_OUTPUT: &str = "output/day03.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 
 fn part_one(content: &str) -> i64 {
     content

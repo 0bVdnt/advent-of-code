@@ -4,8 +4,9 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day05.txt";
-const std::string DEFAULT_OUTPUT = "output/day05.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
+
 using Range = std::pair<long long, long long>;
 
 int part_one(const std::string &filename) {

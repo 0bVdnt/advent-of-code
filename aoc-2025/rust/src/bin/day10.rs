@@ -3,8 +3,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/day10.txt";
-const DEFAULT_OUTPUT: &str = "output/day10.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 const EPS: f64 = 1e-9;
 
 #[derive(Debug, Clone)]

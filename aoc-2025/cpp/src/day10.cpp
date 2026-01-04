@@ -7,8 +7,9 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day10.txt";
-const std::string DEFAULT_OUTPUT = "output/day10.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
+
 const double EPS = 1e-9;
 
 struct Machine {

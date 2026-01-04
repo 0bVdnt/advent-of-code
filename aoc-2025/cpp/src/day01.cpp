@@ -6,8 +6,8 @@
 #include <ostream>
 #include <string>
 
-const std::string DEFAULT_INPUT = "../input/day01.txt";
-const std::string DEFAULT_OUTPUT = "output/day01.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 const int START_POS = 50;
 const int DIAL_SIZE = 100;
 

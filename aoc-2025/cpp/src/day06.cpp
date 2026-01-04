@@ -6,8 +6,8 @@
 #include <string>
 #include <vector>
 
-const std::string DEFAULT_INPUT = "../input/day06.txt";
-const std::string DEFAULT_OUTPUT = "output/day06.txt";
+const std::string DEFAULT_INPUT = "";
+const std::string DEFAULT_OUTPUT = "";
 
 bool is_col_empty(const std::vector<std::string> &lines, int col) {
   for (const auto &line : lines)

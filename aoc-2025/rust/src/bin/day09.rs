@@ -4,8 +4,8 @@ use std::env;
 use std::fs;
 use std::path::Path;
 
-const DEFAULT_INPUT: &str = "../input/day09.txt";
-const DEFAULT_OUTPUT: &str = "output/day09.txt";
+const DEFAULT_INPUT: &str = "";
+const DEFAULT_OUTPUT: &str = "";
 
 #[derive(Debug, Clone, Copy)]
 struct Point {
